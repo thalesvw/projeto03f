@@ -9,7 +9,12 @@ body {
   width: 384px;
   margin: auto;
   margin-top: 100px;
+  background: #E5E5E5;
+}
+
+main {
   background: #EFF1FF;
+  margin-bottom: 50px;
 }
 
 header {
@@ -18,23 +23,32 @@ header {
 }
 
 h1 {
+  font-family: 'Staatliches', cursive;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  font-size: 40px;
+  line-height: 34px;
   margin-bottom: 30px;
   background: #CBC0D3;
   height: 49px;
-
+  padding: 8px 0;
 }
 
-#logo{
+#logo {
   width: 137px;
   height: 137px;
   margin: 32px 124px;
 }
 
 p {
+  font-family: 'Palanquin', sans-serif;
+  color: #23053A;
+  font-size: 20px;
+  line-height: 15px;
   width: 305px;
-  margin: auto;
-  margin-top: 14px;
-  margin-bottom: 63px;
+  margin: 0 auto 63px;
+  padding-top: 14px;
 }
 
 img {
@@ -45,6 +59,7 @@ img {
 
 .card {
   position: relative;
+  margin: 0 32px;
 }
 
 .card img {
@@ -55,8 +70,17 @@ img {
   position: absolute;
   left: 192px;
   top: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #4A4E69;
+  font-family: 'Staatliches', cursive;
+  background: #FEEAFA;
+  border-radius: 20px;
+  width: 112px;
+  height: 35px;
+  padding: 5px;
 }
 
-.card h2 span {
-  background-color: white;
-}
+  
+  
